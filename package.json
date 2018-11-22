@@ -24,11 +24,13 @@
   "homepage": "https://github.com/yzm542227694/webapp#readme",
   "browser": {
     "jquery": "./src/lib/jquery/dist/jquery.js",
-    "lodash": "./src/lib/lodash/lodash.js"
+    "lodash": "./src/lib/lodash/lodash.js",
+    "browser-polyfill": "./src/lib/babel-polyfill/browser-polyfill.js"
   },
   "browserify-shim": {
     "jquery": "$",
-    "lodash": "_"
+    "lodash": "_",
+    "browser-polyfill": "polyfill"
   },
   "browserify": {
     "transform": [

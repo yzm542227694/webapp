@@ -1,0 +1,26 @@
+{
+  "name": "webapp",
+  "description": "gulp web app",
+  "main": "gulpfile.js",
+  "authors": [
+    "yzm"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "webapp"
+  ],
+  "homepage": "https://github.com/yzm542227694/webapp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.12.4",
+    "lodash": "3.10.1",
+    "font-awesome": "^5.5.0"
+  }
+}
